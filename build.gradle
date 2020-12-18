@@ -12,6 +12,9 @@ buildscript {
 	dependencies {
 		classpath "com.axelor:axelor-gradle:${openPlatformVersion}"
 	}
+	node {
+    download = true
+    }
 }
 
 allprojects { repositories repos }
